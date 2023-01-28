@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+/* common css end  */
+
+/* search custom button */
+
+.search_btn i{
+    color: lightgray;
+    font-size: 20px;
+    transition: .5s;
+    
+}
+.search_btn i:hover{
+    color: #FF136F;
+    transform: scale(1.3);
+    
+}
+
+/* slide background color  */
+
+.custom_slide{
+    background-color: #FEEAE9;
+    border-radius: 20px;
+}
+
+/* custom price color  */
+
+.price{
+    color: #FF136F;
+}
+
+/* custom pink button  */
+
+.custom_btn{
+    background: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
+    color: #fff;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+.custom_btn i{
+    margin-left: 5px;
+}
+
+/* catagories part  */
+
+.cat-1{
+    background: linear-gradient(152.07deg, #FF9C35 1.47%, #FFD019 97.17%);
+    
+}
+.cat-2{
+    background: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
+}
+.cat-3{
+    background: linear-gradient(170.41deg, #4289FF -10.89%, #3F07F8 92.77%);
+}
